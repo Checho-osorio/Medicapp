@@ -17,7 +17,7 @@
         <Button x:Name="btnregistro"
                 BackgroundColor="Navy"
                 BorderRadius="23"
-                Text="Login"
+                Text="Registro"
                 TextColor="White"
                 VerticalOptions="End"
                 Clicked="btnregistro_Clicked">
@@ -27,7 +27,7 @@
         <Button x:Name="btnlogin"
                 BackgroundColor="Navy"
                 BorderRadius="23"
-                Text="Login"
+                Text="Iniciar Sesión"
                 TextColor="White"
                 Clicked="btnlogin_Clicked">
         </Button>
