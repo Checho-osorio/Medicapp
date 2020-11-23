@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Medicapp.registro">
     <ContentPage.Content>
+
         <StackLayout Margin="20">
             <Label 
                 FontAttributes="Bold"
@@ -17,42 +18,38 @@
                 Text="Nombres y Apellidos">
             </Label>
             <Entry 
-                Keyboard=""
-                    Text="{Binding Email, Mode=TwoWay}"
                 Placeholder="Nombre completo">
             </Entry>
             <Label 
                 Text="Numero de Documento">
             </Label>
             <Entry 
-                    Text="{Binding Password, Mode=TwoWay}"
                 Placeholder="Sin puntos ni comas">
             </Entry>
             <Label 
                 Text="Direccion">
             </Label>
             <Entry 
-                Keyboard="Telefono"
+                Keyboard="Direccion"
                 Placeholder="">
             </Entry>
             <Label 
                 Text="Telefono">
             </Label>
             <Entry 
-                Keyboard=""
+                Keyboard="Telefono"
                 Placeholder="">
             </Entry>
             <Label 
                 Text="Fecha de Nacimiento">
             </Label>
-            <DatePicker
+         <DatePicker
                 MinimumDate="01/01/1900">
-            </DatePicker>
+            </DatePicker> 
 
             <Button
                 BackgroundColor="Purple"
                 BorderRadius="23"
-                IsEnabled = "{Binding IsEnable, Mode0TwoWay}"
                 Text="Registrarse"
                 TextColor="White">
             </Button>

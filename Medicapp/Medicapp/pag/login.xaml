@@ -2,11 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Medicapp.login"
-             BindingContext="{Binding Main, Source={StaticResource Locator}}"
              Title="Login">
     <ContentPage.Content >
         <StackLayout Margin="20"
-              BindingContext="{Binding Login}">
+             >
             <Label 
                 FontAttributes="Bold"
                 FontSize="Large"
@@ -32,10 +31,6 @@
             </Entry>
            
 
-            <ActivityIndicator 
-                IsRunning="{Binding IsRunning, Mode=TwoWay}">
-                
-            </ActivityIndicator>
 
             <Label
                     HorizontalOptions="Center"
@@ -55,7 +50,6 @@
             <Button x:Name="btnBack"
                 BackgroundColor="Purple"
                 BorderRadius="23"
-                IsEnabled = "{Binding IsEnable, Mode0TwoWay}"
                 Text="Regresar"
                 TextColor="White"
                 Clicked="btnBack_Clicked">
