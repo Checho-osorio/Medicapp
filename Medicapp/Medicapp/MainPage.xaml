@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Medicapp.MainPage">
+
+    <StackLayout Margin="25"
+                 VerticalOptions="Center">
+        <Label 
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="MedicAPP"/>
+        <Image
+            Source="Logo.png"
+            />
+        
+        <Button x:Name="btnregistro"
+                BackgroundColor="Navy"
+                BorderRadius="23"
+                Text="Login"
+                TextColor="White"
+                VerticalOptions="End"
+                Clicked="btnregistro_Clicked">
+
+        </Button>
+
+        <Button x:Name="btnlogin"
+                BackgroundColor="Navy"
+                BorderRadius="23"
+                Text="Login"
+                TextColor="White"
+                Clicked="btnlogin_Clicked">
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>
