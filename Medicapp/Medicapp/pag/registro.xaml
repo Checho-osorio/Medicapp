@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Medicapp.registro">
     <ContentPage.Content>
-
+        <ScrollView>
         <StackLayout Margin="20">
             <Label 
                 FontAttributes="Bold"
@@ -11,41 +11,26 @@
                 HorizontalOptions="Center"
                 Text="MedicTime">
             </Label>
-            <Image
-                Source="Logo.png">
-            </Image>
-            <Label 
-                Text="Nombres y Apellidos">
-            </Label>
-            <Entry 
-                Placeholder="Nombre completo">
-            </Entry>
-            <Label 
-                Text="Numero de Documento">
-            </Label>
-            <Entry 
-                Placeholder="Sin puntos ni comas">
-            </Entry>
-            <Label 
-                Text="Direccion">
-            </Label>
-            <Entry 
-                Keyboard="Direccion"
-                Placeholder="">
-            </Entry>
-            <Label 
-                Text="Telefono">
-            </Label>
-            <Entry 
-                Keyboard="Telefono"
-                Placeholder="">
-            </Entry>
-            <Label 
-                Text="Fecha de Nacimiento">
-            </Label>
-         <DatePicker
+            <Image Source="Logo.png"></Image>
+            <Entry Placeholder="Nombre completo"></Entry>
+            <Entry Placeholder="Numero de Documento"></Entry>
+            <Entry Placeholder="Direccion"></Entry>
+            <Entry Placeholder="Telefono/Celular"></Entry>
+            <Entry Placeholder="Correo Electronico"></Entry>
+            <Entry IsPassword="True" Placeholder="Password"></Entry>
+            <Label Text="Fecha de Nacimiento"></Label>
+            <DatePicker
                 MinimumDate="01/01/1900">
-            </DatePicker> 
+            </DatePicker>
+            <Label 
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="En caso de Emergencia">
+            </Label>
+            <Entry Placeholder="Nombre completo"></Entry>
+            <Entry Placeholder="parentesco"></Entry>
+            <Entry Placeholder="Telefono/Celular"></Entry>
 
             <Button
                 BackgroundColor="Purple"
@@ -54,5 +39,6 @@
                 TextColor="White">
             </Button>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

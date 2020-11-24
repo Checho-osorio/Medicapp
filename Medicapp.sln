@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medicapp.Android", "Medicap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medicapp.iOS", "Medicapp\Medicapp.iOS\Medicapp.iOS.csproj", "{372AB45B-B420-4B2A-84BF-3F49851898DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medicapp", "Medicapp\Medicapp\Medicapp.csproj", "{BE343777-8087-46C5-B197-B3D17C70B4EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medicapp", "Medicapp\Medicapp\Medicapp.csproj", "{BE343777-8087-46C5-B197-B3D17C70B4EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,7 +38,6 @@ Global
 		{F94A2037-5594-48B0-860E-C5840A8D34B8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{F94A2037-5594-48B0-860E-C5840A8D34B8}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{372AB45B-B420-4B2A-84BF-3F49851898DB}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{372AB45B-B420-4B2A-84BF-3F49851898DB}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{372AB45B-B420-4B2A-84BF-3F49851898DB}.Debug|Any CPU.Deploy.0 = Debug|iPhone
 		{372AB45B-B420-4B2A-84BF-3F49851898DB}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{372AB45B-B420-4B2A-84BF-3F49851898DB}.Debug|iPhone.Build.0 = Debug|iPhone
