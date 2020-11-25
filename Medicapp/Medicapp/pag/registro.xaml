@@ -24,6 +24,7 @@
             <DatePicker
                 MinimumDate="01/01/1900">
             </DatePicker>
+            <!-- g -->
             <Label 
                 FontAttributes="Bold"
                 FontSize="Large"
