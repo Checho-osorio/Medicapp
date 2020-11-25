@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Medicapp.pag;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,7 +13,7 @@ namespace Medicapp
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
-
+            MainPage = new F_Registro();
        
         }
 
