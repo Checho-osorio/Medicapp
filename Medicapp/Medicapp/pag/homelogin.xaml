@@ -29,8 +29,8 @@
                 <Label Text="{Binding nombre}"
                 FontAttributes="Bold"
                 FontSize="Large"
-                HorizontalOptions="Center"
-                
+                HorizontalOptions="Center">
+
                 </Label>
 
 
@@ -49,8 +49,8 @@
                 BackgroundColor="Purple"
                 BorderRadius="23"
                 Text="Registrar Medicamentos"
-                TextColor="White"
-                Clicked="btnregistrar_Clicked">
+                TextColor="White">
+                <!--Clicked="btnregistrar_Clicked">-->
             </Button>
             
         </StackLayout>
