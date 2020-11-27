@@ -13,7 +13,7 @@
                 HorizontalOptions="Center"
                 Text="MedicTime">
             </Label>
-            <Image Source="Logo.png"></Image>
+            <Image Source="logo.png"></Image>
             <Entry Placeholder="Nombre completo"></Entry>
             <Entry Placeholder="Numero de Documento"></Entry>
             <Entry Placeholder="Direccion"></Entry>

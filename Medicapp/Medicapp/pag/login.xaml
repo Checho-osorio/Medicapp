@@ -13,19 +13,19 @@
                 Text="MedicTime">
             </Label>
             <Image
-                Source="Logo.png">
+                Source="logo.png">
             </Image>
             <Label 
                 Text="Email">
             </Label>
-            <Entry 
+            <Entry x:Name="email" 
                Keyboard="Email"
                 Placeholder="Escriba su correo.......">
             </Entry>
             <Label 
                 Text="Password">
             </Label>
-            <Entry 
+            <Entry x:Name="psw"
                 IsPassword="True"
                 Placeholder="Escriba su Contraseña.......">
             </Entry>
@@ -39,20 +39,14 @@
 
             </Label>
 
-            <Button
-                BackgroundColor="Navy"
-                BorderRadius="23"
-                Text="Iniciar"
-                TextColor="White">
+   
 
-            </Button>
-
-            <Button x:Name="btnBack"
+            <Button x:Name="btnlogin"
                 BackgroundColor="Purple"
                 BorderRadius="23"
-                Text="Regresar"
+                Text="Iniciar"
                 TextColor="White"
-                Clicked="btnBack_Clicked">
+                Clicked="btnlogin_Clicked">
             </Button>
         </StackLayout>
     </ContentPage.Content>

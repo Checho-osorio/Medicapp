@@ -11,7 +11,7 @@
                 HorizontalOptions="Center"
                 Text="MedicAPP"/>
         <Image
-            Source="Logo.png"
+            Source="logo.png"
             />
         
         <Button x:Name="btnregistro"
