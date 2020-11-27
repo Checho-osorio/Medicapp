@@ -9,7 +9,7 @@
                 FontAttributes="Bold"
                 FontSize="Large"
                 HorizontalOptions="Center"
-                Text="MedicAPP"/>
+                Text=""/>
         <Image
             Source="logo.png"
             />

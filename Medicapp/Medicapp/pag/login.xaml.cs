@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using Medicapp.Class;
+using Medicapp.pag;
 
 namespace Medicapp
 {
@@ -45,7 +46,8 @@ namespace Medicapp
                 if (res != null)
                 {
 
-                    await DisplayAlert("Ouch!!", "hasta aqui funciona .", "OK");
+                    await DisplayAlert("Medicapp", "Bienvenido!! .", "OK");
+                    await Navigation.PushAsync(new homelogin());
                 }
                 else
                 {
@@ -56,7 +58,6 @@ namespace Medicapp
                     email.Focus();
                     psw.Focus();
                     return;
-
 
                 }
             }

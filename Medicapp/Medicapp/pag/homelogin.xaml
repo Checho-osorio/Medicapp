@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Medicapp.pag.homelogin">
+    <ContentPage.Content>
+        <StackLayout Margin="20"
+             >
+
+            <Label 
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="">
+            </Label>
+
+            <Image
+                Source="logo.png">
+            </Image>
+
+            <StackLayout>
+            <Label 
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="Bienvenido ">
+            </Label>
+
+
+                <Label Text="{Binding nombre}"
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                
+                </Label>
+
+
+
+            </StackLayout>
+
+            <Button x:Name="btnconsulta"
+                BackgroundColor="green"
+                BorderRadius="23"
+                Text="Consultar Medicamentos"
+                TextColor="White"
+                Clicked="btnconsulta_Clicked">
+            </Button>
+
+            <Button x:Name="btnregistrar"
+                BackgroundColor="Purple"
+                BorderRadius="23"
+                Text="Registrar Medicamentos"
+                TextColor="White"
+                Clicked="btnregistrar_Clicked">
+            </Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

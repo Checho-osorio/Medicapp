@@ -10,7 +10,7 @@
                 FontAttributes="Bold"
                 FontSize="Large"
                 HorizontalOptions="Center"
-                Text="MedicTime">
+                Text="">
             </Label>
             <Image
                 Source="logo.png">
