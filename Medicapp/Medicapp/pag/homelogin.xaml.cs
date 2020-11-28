@@ -22,7 +22,8 @@ namespace Medicapp.pag
             await Navigation.PushAsync(new consulta_med());
         }
 
-        private async Task btnregistrar_ClickedAsync(object sender, EventArgs e)
+
+        private async void btnregistrar_Clicked_1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new registro_med());
         }

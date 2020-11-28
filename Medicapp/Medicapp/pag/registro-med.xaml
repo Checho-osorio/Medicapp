@@ -3,10 +3,47 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Medicapp.pag.registro_med">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Margin="20">
+                <Image Source="Logo.png"></Image>
+                <Entry Placeholder="Nombre Medicamento"></Entry>
+                <Entry Placeholder="Docis"></Entry>
+                <Grid>
+                    <BoxView CornerRadius="20" Color="DimGray"
+                AbsoluteLayout.LayoutBounds="0,0.5,10,0.05">
+                    </BoxView>
+                    <Label
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    FontSize="Large"
+                    Text="Info del Relleno(Opcional)">
+                    </Label>
+                </Grid>
+                <Entry Placeholder="Total por caja"></Entry>
+                <Entry Placeholder="Aun en la caja"></Entry>
+                <Grid>
+                    <BoxView CornerRadius="20" Color="DimGray" 
+           AbsoluteLayout.LayoutBounds="0,0.9,10,0.05">
+                    </BoxView>
+
+                    <Label
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    FontSize="Large"
+                    Text="Datos Opcionales">
+                    </Label>
+                </Grid>
+                <Entry Placeholder="Numero de Receta"></Entry>
+                <Entry Placeholder="Via"></Entry>
+                <Entry Placeholder="Forma"></Entry>
+
+                <Button
+                BackgroundColor="ForestGreen"
+                BorderRadius="23"
+                Text="Guardar"
+                TextColor="White">
+                </Button>
+            </StackLayout>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>
